@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adivinanza</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Adivina el Número</h1>
+  <div id="question-container" class="container">
+    <p>¿En qué número estás pensando?</p>
+    <button id="start-btn" class="btn">Iniciar</button>
+  </div>
+  <div id="guess-container" class="container" style="display: none;">
+    <p id="guess-text"></p>
+    <button id="correct-btn" class="btn">Correcto</button>
+    <button id="incorrect-btn" class="btn">Incorrecto</button>
+  </div>
+
+  <script src="./adivina.js"></script>
+</body>
+</html>
